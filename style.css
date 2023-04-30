@@ -1,0 +1,70 @@
+body{
+    background-image: url(Images/mee.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 1400px 700px;     */
+    background-size: 1320px 720px;    
+   
+}
+
+.info{
+    margin-top: 200px;
+    margin-left: 50px;
+    color: white;
+}
+
+.intro{
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+footer{
+    height: 150px;
+    background-color: 2A7AA7;
+}
+
+.links{
+    height: 10px;
+    width: 10px;
+}
+
+i{
+    border-radius: 2px solid black;
+}
+
+h2{
+    text-align: center;
+}
+
+.contact-me h2{
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: 700px 700px;    
+    }
+    h1{
+        font-size: small;
+        margin-right: 30px;
+
+    }
+    .info{
+        font-size: xx-small;
+        text-align: justify;
+        margin-right: 30px;
+
+    }
+  }
+
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+    body {
+        background-size: 900px 900px;    
+    }
+    .intro{
+        margin-top: 450px;
+    }
+  }
